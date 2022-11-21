@@ -72,7 +72,7 @@ export default {
   methods: {
     fetchMovies: _.debounce(function (val) {
       fetch(
-        `http://www.omdbapi.com/?` +
+        `https://www.omdbapi.com/?` +
           new URLSearchParams({
             apiKey: "62fc2f6c",
             s: val.toLowerCase(),
