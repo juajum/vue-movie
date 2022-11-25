@@ -18,7 +18,7 @@
         <template v-slot:no-data>No results found</template>
       </v-autocomplete>
     </v-app-bar>
-    <v-container class="mt-16 pt-12">
+    <v-container class="mt-16 pt-12" fluid>
       <v-row>
         <v-col
           v-for="movie in entries"
